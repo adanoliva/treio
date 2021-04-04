@@ -14,18 +14,18 @@ export default class TaskController
     }
 
     getByState(state){
-        let element = this.taskContent.filter(e => e.state === state);
+        let element = this.taskContent.filter(e => e.state == state);
         return element;
     }
 
     getById(id){
-        let element = this.taskContent.filter(e => e.id === id);
+        let element = this.taskContent.filter(e => e.id == id);
         return element[0];
     }
 
     delById(id){
 
-        let element = this.taskContent.find(e => e.id === id);
+        let element = this.taskContent.find(e => e.id == id);
         let index = this.taskContent.indexOf(element);
 
         if (index > -1)

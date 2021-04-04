@@ -16,7 +16,7 @@ function Panel() {
 	const onDrop = (event) => {
         if (event.target.id.indexOf("T") === -1 && event.target.id !== ''){
             let taskDrag = event.dataTransfer.getData("task");
-
+            console.log("TASK ID  " + taskDrag.substring(1));
             let myTask = task.getById(taskDrag.substring(1));
             console.log("MYTASK " + JSON.stringify(myTask));
 
