@@ -1,0 +1,6 @@
+
+.container-drop {
+    min-height: 300px;
+    border: 1px;
+    border-style: dotted;
+}
