@@ -39,7 +39,7 @@ function Panel() {
                     let itemTask = task.getByState(item.id);
                     let key = "P"+item.id;
                     return(
-                        <div key={key} className="col-3">
+                        <div key={key} className="col-lg-3 col-md-6 col-12">
                             <h3 style={{color: item.color, textAlign: 'center'}}>{item.panel}</h3>
                             <div id={item.id}
                                 className="container-drop"
