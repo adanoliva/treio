@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/treio/static/css/main.968544d9.chunk.css",
+    "main.js": "/treio/static/js/main.ef41aa85.chunk.js",
+    "main.js.map": "/treio/static/js/main.ef41aa85.chunk.js.map",
+    "runtime-main.js": "/treio/static/js/runtime-main.a14a1f18.js",
+    "runtime-main.js.map": "/treio/static/js/runtime-main.a14a1f18.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/treio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8a330b3f.chunk.js": "/treio/static/js/2.8a330b3f.chunk.js",
+    "static/js/2.8a330b3f.chunk.js.map": "/treio/static/js/2.8a330b3f.chunk.js.map",
+    "index.html": "/treio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/treio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.968544d9.chunk.css.map": "/treio/static/css/main.968544d9.chunk.css.map",
+    "static/js/2.8a330b3f.chunk.js.LICENSE.txt": "/treio/static/js/2.8a330b3f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a14a1f18.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8a330b3f.chunk.js",
+    "static/css/main.968544d9.chunk.css",
+    "static/js/main.ef41aa85.chunk.js"
+  ]
+}
