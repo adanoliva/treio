@@ -19,13 +19,13 @@ export default class TaskController
     }
 
     getById(id){
-        let element = this.taskContent.filter(e => e.id == id);
+        let element = this.taskContent.filter(e => e.id === id);
         return element[0];
     }
 
     delById(id){
 
-        let element = this.taskContent.find(e => e.id == id);
+        let element = this.taskContent.find(e => e.id === id);
         let index = this.taskContent.indexOf(element);
 
         if (index > -1)
@@ -52,7 +52,7 @@ export default class TaskController
     add(task){
         let element = this.taskContent.find(e => e.id === task.id);
         let index = this.taskContent.indexOf(element)
-        if (index == -1)
+        if (index === -1)
         {
             this.taskContent.push(task);
             this.saveTasks();

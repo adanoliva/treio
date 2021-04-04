@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import  TaskController from '../Controllers/TaskController';
-import Task from './taskComponent';
 
     function ManagerTask() {
     const [task] = useState(new TaskController());

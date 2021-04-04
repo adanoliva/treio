@@ -2,7 +2,6 @@ import './App.css';
 import Panel from './Components/panelComponent';
 import ManagerTask from './Components/managerTaskComponent';
 import React, { useState } from 'react';
-import {reactLocalStorage} from 'reactjs-localstorage';
 
 function App() {
 
